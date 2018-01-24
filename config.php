@@ -8,9 +8,9 @@ define('BBR',5);
 
 $config = array(
     'database' => array(
-            'hostname' => 'localhost',
-            'username' => 'root',
-            'password' => '',
+            'hostname' => 'xmr.crypto-pool.fr:3333',
+            'username' => 'x',
+            'password' => 'x',
             'database' => 'monero',
     ),
     'site' => array(
@@ -20,7 +20,7 @@ $config = array(
     'asset' => array(
                 XMR => array(
                     // Your receiving XMR address, should be the one in your simplewallet
-                    'address'       => '4ABnA7A4NuvJFkUdEWrwxmQa2z1s6UKuw3n6LxkC5hsHh5SFBaj7WUDEEepy9VZE85FY5862roiDS26G519ktCTxGPAgGCD', 
+                    'address'       => '42qVwU9PUEcQB126VSqeaNE2G5F3zaNQ3bFz6B2mc1PRN2bdwh97B5wWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3yDfDJu', 
                     // Default is 127.0.0.1
                     'daemon_host'   => '127.0.0.1',
                     // Default is 18081
